@@ -1,27 +1,14 @@
-Application: Expense Tracker
+# Expense Tracker
 
-About/Overview: This application helps to keep a record of money inflow and outflow. It keeps a daily record of your expenses by tracking the income and expense, puts more of an emphasis on your spending, and, helps you get a good idea of your purchasing behavior.
+This application helps to keep a record of money inflow and outflow. It keeps a daily record of your expenses by tracking the income and expense, puts more of an emphasis on your spending, and, helps you get a good idea of your purchasing behavior.
 
-List of Features:
+# Features
+The Expense Tracker application includes the following pages and features:
 
-1. First Page: 
-
-- The home page which is the landing page of the application, and has Login and Register buttons on the top right corner of it
-- The Register and Login buttons, both redirect the user to another respective pages
-- As soon as a user registers in the application, an email is received by the user for succesful registration
-- Navbar will remain same for every page except Dashboard
-
-2. User Dashboard: 
-
-- Will include an 'Add' button, which will allow a user to add their income or expenses
-- There will be logs of every record added by the user
-- The dashboard will show case Income, Expenses and Total
-- A user will be able also be able to Edit and Delete a log
-
-3. Diagram:
-
-- The user dashboard will have a button on the top right corner, which says 'Diagram'
-- Through this, a user can see a graph of the income, expenses, with respect to the dates (Start and End dates)
-- The user can then logout using 'Log out' button
-
+- User Login and Signup: Users can create an account or log in to an existing account to access the application.
+- Category Management: Users can add and manage categories for their expenses and income. This helps in organizing and tracking different types of transactions.
+- Income Tracking: Users can add different types of income, such as salary, bonuses, or investments, providing a comprehensive overview of their earnings.
+- Expense Tracking: Users can add various expenses they incur, such as rent, bills, groceries, or entertainment expenses, enabling them to monitor their spending habits.
+- Dashboard: Users can view a comprehensive dashboard that displays their current financial status. It includes a summary of income, expenses, and savings.
+- Analytics Chart: The application features an analytics chart powered by React Highcharts. This chart visually represents the user's income and expenses, helping them identify trends and patterns.
 
